@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Klocman.UpdateSystem</RootNamespace>
-    <AssemblyName>Klocman.UpdateSystem</AssemblyName>
+    <AssemblyName>UpdateSystem</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
