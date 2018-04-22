@@ -112,10 +112,10 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="RunAutoUpdate_ErrorBody" xml:space="preserve">
     <value>A actualização automática falhou, quer abrir a página de download?
@@ -136,6 +136,5 @@ Pormenores do erro: {0}</value>
   <data name="UserLaunchMessage" xml:space="preserve">
     <value>
 Para procurar por actualizações terá de abrir a aplicação principal e, em seguida, iniciar o processo de actualização a partir daí.</value>
-    
   </data>
 </root>

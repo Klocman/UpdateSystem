@@ -112,10 +112,10 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="RunAutoUpdate_ErrorBody" xml:space="preserve">
     <value>Automatyczna aktualzacja się nie powiodła, otworzyć stronę programu?
@@ -136,6 +136,5 @@ Szczegóły błędu: {0}</value>
   <data name="UserLaunchMessage" xml:space="preserve">
     <value>Aktualizacja tej aplikacji jest możliwa tylko poprzez główny 
 plik wykonywalny</value>
-    
   </data>
 </root>

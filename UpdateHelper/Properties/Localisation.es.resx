@@ -120,7 +120,7 @@
   <data name="RunAutoUpdate_ErrorBody" xml:space="preserve">
     <value>La actualización automática falló, ¿quiere abrir la página de descarga?
 
-Asegúrese de que su antivirus no esté interrumpiendo con el proceso. Es posible que tenga que volver a descargar la aplicación de forma manual, ya que podría haber sido corrompida.
+Asegúrese de que su antivirus no esté interrumpiendo el proceso. Es posible que tenga que volver a descargar la aplicación de forma manual, ya que podría haber sido corrompida.
 
  Detalles del error: {0}</value>
   </data>
@@ -128,10 +128,10 @@ Asegúrese de que su antivirus no esté interrumpiendo con el proceso. Es posibl
     <value>Ayudante de actualización</value>
   </data>
   <data name="RunAutoUpdate_Error_FilesMissing" xml:space="preserve">
-    <value>Algunos archivos están ausentes en los datos de actualización.</value>
+    <value>Algunos archivos no están en los datos de actualización.</value>
   </data>
   <data name="RunAutoUpdate_ErrorDataMissing" xml:space="preserve">
-    <value>Faltan datos de actualización.</value>
+    <value>No existen datos de actualización.</value>
   </data>
   <data name="UserLaunchMessage" xml:space="preserve">
     <value>Para buscar actualizaciones tiene que iniciar la aplicación principal y luego iniciar el proceso de actualización desde ahí.</value>

@@ -118,22 +118,22 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="RunAutoUpdate_ErrorBody" xml:space="preserve">
-    <value>Az automatikus frissítés nem sikerült. Szeretné megnyitni a letöltési oldalt?
+    <value>فشل التحديث التلقائي ، هل تريد فتح صفحه التحميل ؟
 
-Győződjön meg arról, hogy a vírusvédelme nem zavarja-e a frissítési folyamatot. Lehet, hogy kézzel újra le kell töltenie az alkalmazást, mert az megsérülhetett.
+تاكد من عدم مقاطعه مكافحه الفيروسات مع العملية. قد تحتاج الى اعاده تحميل التطبيق يدويا لانه يمكن ان يكون معطوبا.
 
- Hiba részletei: {0}</value>
+{تفاصيل الخطا: {0</value>
   </data>
   <data name="MessageBoxTitle" xml:space="preserve">
-    <value>Frissítősegéd</value>
+    <value>مساعد التحديث</value>
   </data>
   <data name="RunAutoUpdate_Error_FilesMissing" xml:space="preserve">
-    <value>Néhány fájl hiányzik a frissítési adatok közül.</value>
+    <value>بعض الملفات مفقوده من بيانات التحديث.</value>
   </data>
   <data name="RunAutoUpdate_ErrorDataMissing" xml:space="preserve">
-    <value>A frissítési adatok hiányoznak.</value>
+    <value>بيانات التحديث مفقوده.</value>
   </data>
   <data name="UserLaunchMessage" xml:space="preserve">
-    <value>A frissítések áttekintéséhez indítsa el a fő alkalmazást, majd indítsa el a frissítési folyamatot onnan.</value>
+    <value>للبحث عن تحديثاتك لبدء التطبيق الرئيسي ومن ثم اطلاق عمليه التحديث من هناك.</value>
   </data>
 </root>

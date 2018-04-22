@@ -117,23 +117,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="RunAutoUpdate_ErrorBody" xml:space="preserve">
-    <value>Az automatikus frissítés nem sikerült. Szeretné megnyitni a letöltési oldalt?
+  <data name="Error_UpdateHelperMissing" xml:space="preserve">
+    <value>UpdateHelper.exe mancante, assicurati che l'antivirus non interferisca con il processo di aggiornamento.</value>
+  </data>
+  <data name="UpdateSystem_DownloadingTitle" xml:space="preserve">
+    <value>Scaricando l'aggiornamento...</value>
+  </data>
+  <data name="UpdateSystem_ExtractingTitle" xml:space="preserve">
+    <value>Estrazione in corso...</value>
+  </data>
+  <data name="UpdateSystem_FailedExtractDetails" xml:space="preserve">
+    <value>Fallita l'estrazione di alcuni file o sono stati rimossi</value>
+  </data>
+  <data name="UpdateSystem_FailedHash" xml:space="preserve">
+    <value>Il file di aggiornamento scaricato è corrotto</value>
+  </data>
+  <data name="UpdateSystem_FailedTitle" xml:space="preserve">
+    <value>Aggiornamento fallito</value>
+  </data>
+  <data name="UpdateSystem_Failed_Details" xml:space="preserve">
+    <value>Ti invitiamo a chiudere tutte le applicazioni aperte e provare ancora. Assicurati che l'antivirus non interferisca con il processo di aggiornamento.
 
-Győződjön meg arról, hogy a vírusvédelme nem zavarja-e a frissítési folyamatot. Lehet, hogy kézzel újra le kell töltenie az alkalmazást, mert az megsérülhetett.
-
- Hiba részletei: {0}</value>
-  </data>
-  <data name="MessageBoxTitle" xml:space="preserve">
-    <value>Frissítősegéd</value>
-  </data>
-  <data name="RunAutoUpdate_Error_FilesMissing" xml:space="preserve">
-    <value>Néhány fájl hiányzik a frissítési adatok közül.</value>
-  </data>
-  <data name="RunAutoUpdate_ErrorDataMissing" xml:space="preserve">
-    <value>A frissítési adatok hiányoznak.</value>
-  </data>
-  <data name="UserLaunchMessage" xml:space="preserve">
-    <value>A frissítések áttekintéséhez indítsa el a fő alkalmazást, majd indítsa el a frissítési folyamatot onnan.</value>
+Se l'errore persiste visita il sito web ufficiale e scarica una nuova copia dell'applicazione da lì.</value>
   </data>
 </root>

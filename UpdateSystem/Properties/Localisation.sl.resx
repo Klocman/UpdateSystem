@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Error_UpdateHelperMissing" xml:space="preserve">
-    <value>Manjka datoteka UpdateHelper.exe. Poskrbite, da se vaš protivirusni program  ne vmešava v postopek  posodabljanja.</value>
+    <value>Manjka datoteka UpdateHelper.exe. Poskrbite, da se vaš protivirusni program ne vmešava v postopek posodabljanja.</value>
   </data>
   <data name="UpdateSystem_DownloadingTitle" xml:space="preserve">
     <value>Nalaganje posodobitev...</value>
@@ -130,14 +130,14 @@
     <value>Nekatere datoteke niso uspešno razširjene ali so bile odstranjene.</value>
   </data>
   <data name="UpdateSystem_FailedHash" xml:space="preserve">
-    <value>Prenešena datoteka posodobitve je poškodovana</value>
+    <value>Prenešena datoteka za posodobitev je poškodovana</value>
   </data>
   <data name="UpdateSystem_FailedTitle" xml:space="preserve">
-    <value>Posodobitev je spodletela</value>
+    <value>Posodobitev ni uspela</value>
   </data>
   <data name="UpdateSystem_Failed_Details" xml:space="preserve">
     <value>Zaprite vse odprte aplikacije in poskusite znova. Poskrbite, da vaš protivirusni program ne moti posodabljanje.
 
-Če težava ni odpravljena, obiščite uradno spletno stran in od tam prenesite svežo kopijo aplikacije.</value>
+Če težava ni odpravljena, obiščite uradno spletno stran in od tam prenesite zadnjo kopijo aplikacije.</value>
   </data>
 </root>

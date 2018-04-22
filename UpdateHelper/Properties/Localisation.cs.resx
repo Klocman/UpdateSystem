@@ -118,22 +118,22 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="RunAutoUpdate_ErrorBody" xml:space="preserve">
-    <value>Az automatikus frissítés nem sikerült. Szeretné megnyitni a letöltési oldalt?
+    <value>Automatické aktualizace se nezdařila, chcete otevřít stránku pro stažení?
 
-Győződjön meg arról, hogy a vírusvédelme nem zavarja-e a frissítési folyamatot. Lehet, hogy kézzel újra le kell töltenie az alkalmazást, mert az megsérülhetett.
+Ujistěte se, že váš antivirus neblokuje proces. Budete muset znovu stáhnout aplikaci ručně, může být poškozena.
 
- Hiba részletei: {0}</value>
+ Podrobnosti o chybě: {0}</value>
   </data>
   <data name="MessageBoxTitle" xml:space="preserve">
-    <value>Frissítősegéd</value>
+    <value>Pomocník Aktualizace </value>
   </data>
   <data name="RunAutoUpdate_Error_FilesMissing" xml:space="preserve">
-    <value>Néhány fájl hiányzik a frissítési adatok közül.</value>
+    <value>Chybí některé soubory z aktualizace údajů.</value>
   </data>
   <data name="RunAutoUpdate_ErrorDataMissing" xml:space="preserve">
-    <value>A frissítési adatok hiányoznak.</value>
+    <value>Chybí aktualizovat data.</value>
   </data>
   <data name="UserLaunchMessage" xml:space="preserve">
-    <value>A frissítések áttekintéséhez indítsa el a fő alkalmazást, majd indítsa el a frissítési folyamatot onnan.</value>
+    <value>Chcete-li vyhledat aktualizace, musíte spustit hlavní aplikaci a spustit proces aktualizace odtud.</value>
   </data>
 </root>
