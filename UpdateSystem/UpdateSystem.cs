@@ -47,7 +47,7 @@ namespace Klocman.UpdateSystem
                 if (_assemblyLocation == null)
                 {
                     _assemblyLocation = Assembly.GetExecutingAssembly().Location;
-                    if (_assemblyLocation.ContainsAny(new[] {".dll", ".exe"}, StringComparison.OrdinalIgnoreCase))
+                    if (_assemblyLocation.ContainsAny(new[] { ".dll", ".exe" }, StringComparison.OrdinalIgnoreCase))
                         _assemblyLocation = PathTools.GetDirectory(_assemblyLocation);
                 }
                 return _assemblyLocation;
@@ -59,15 +59,30 @@ namespace Klocman.UpdateSystem
 
         public static void BeginUpdate()
         {
+            var directDlUrl = LatestReply.GetDonwnloadLink();
+            if (directDlUrl != null)
+            {
+                RunDirectDownloadUpdate(directDlUrl);
+            }
+            else
+            {
+                var dlPageUrl = LatestReply.GetDownloadPageLink();
+                if (dlPageUrl != null)
+                    Forms.Tools.PremadeDialogs.StartProcessSafely(dlPageUrl.ToString());
+            }
+        }
+
+        private static void RunDirectDownloadUpdate(Uri directDlUrl)
+        {
             var dir = new DirectoryInfo(ExtractedUpdatePath);
-            var error = LoadingDialog.ShowDialog(Localisation.UpdateSystem_DownloadingTitle, iface =>
+            var error = LoadingDialog.ShowDialog(null, Localisation.UpdateSystem_DownloadingTitle, iface =>
             {
                 try
                 {
                     using (var wc = new WebClient())
                     {
                         iface.SetMaximum(100);
-                        wc.DownloadFileAsync(LatestReply.GetDonwnloadLink(), DownloadFilename);
+                        wc.DownloadFileAsync(directDlUrl, DownloadFilename);
 
                         wc.DownloadProgressChanged +=
                             (sender, args) => { iface.SetProgress(args.ProgressPercentage); };
@@ -109,7 +124,7 @@ namespace Klocman.UpdateSystem
                             dir.Delete(true);
                         zip.ExtractAll(dir.FullName);
 
-                        if (dir.GetFiles().Length != zip.Entries.Count(x => !x.FileName.ContainsAny(new[] {'\\', '/'})))
+                        if (dir.GetFiles().Length != zip.Entries.Count(x => !x.FileName.ContainsAny(new[] { '\\', '/' })))
                             throw new IOException(Localisation.UpdateSystem_FailedExtractDetails);
                     }
                 }
@@ -159,7 +174,7 @@ namespace Klocman.UpdateSystem
                 CustomMessageBox.ShowDialog(null,
                     new CmbBasicSettings(Localisation.UpdateSystem_FailedTitle, ex.Message,
                         Localisation.UpdateSystem_Failed_Details, SystemIcons.Error, "OK")
-                    {StartPosition = FormStartPosition.CenterScreen});
+                    { StartPosition = FormStartPosition.CenterScreen });
             }
         }
 

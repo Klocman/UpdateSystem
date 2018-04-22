@@ -15,7 +15,6 @@ namespace Klocman.UpdateSystem
             try
             {
                 GetUpdateVersion();
-                GetDonwnloadLink();
             }
             catch (Exception e)
             {
@@ -42,7 +41,13 @@ namespace Klocman.UpdateSystem
         public Uri GetDonwnloadLink()
         {
             var updateAddr = UpdateInfo.Element("URL");
-            return updateAddr == null ? null : new Uri(updateAddr.Value);
+            return string.IsNullOrEmpty(updateAddr?.Value) ? null : new Uri(updateAddr.Value);
+        }
+
+        public Uri GetDownloadPageLink()
+        {
+            var updateAddr = UpdateInfo.Element("PageURL");
+            return string.IsNullOrEmpty(updateAddr?.Value) ? null : new Uri(updateAddr.Value);
         }
 
         public string GetHash()
